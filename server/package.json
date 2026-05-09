@@ -1,0 +1,26 @@
+{
+  "name": "demo-webapp",
+  "version": "1.0.0",
+  "description": "Web Application set up as a demo/template for future projects",
+  "homepage": "https://github.com/awohlford1/demo-webapp#readme",
+  "bugs": {
+    "url": "https://github.com/awohlford1/demo-webapp/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awohlford1/demo-webapp.git"
+  },
+  "license": "ISC",
+  "author": "Alexander Wohlford",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "pg": "^8.20.0"
+  }
+}
