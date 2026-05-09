@@ -1,0 +1,13 @@
+{
+  "name": "demo-webapp",
+  "version": "1.0.0",
+  "description": "Web Application set up as a demo/template for future projects",
+  "scripts": {
+    "client": "npm --prefix client run dev",
+    "server": "node server/index.js",
+    "dev": "concurrently \"npm run client\" \"npm run server\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
